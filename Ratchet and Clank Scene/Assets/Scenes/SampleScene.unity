@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.4491145, g: 0.4957986, b: 0.55752844, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,7 +193,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0.000079095946, z: 5.11e-43, w: 0.000079095946}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -204,13 +204,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.13699089, y: -0.9402882, z: 0.20948438, w: -0.23066854}
+  m_LocalPosition: {x: -15, y: 7.4, z: 19.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.314001, y: -211.364, z: -22.049002}
 --- !u!1 &475398784
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 475398786}
   - component: {fileID: 475398785}
   m_Layer: 0
-  m_Name: Cylinder (3)
+  m_Name: bridgebase2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,7 +261,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 24194e372c84ea940aad00532fc36519, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 769665258}
   - component: {fileID: 769665257}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: hill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -436,7 +436,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0b91b4eb848604845906fc670b8db88f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 979959736}
   - component: {fileID: 979959735}
   m_Layer: 0
-  m_Name: Cylinder (6)
+  m_Name: view pad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,7 +620,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1f288c794b68d24ba4d7ce5eb603f8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 1002308916}
   - component: {fileID: 1002308915}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: hill2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -712,7 +712,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 68729e0cb215f2245a1ff07811b2fe9e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 1020426870}
   - component: {fileID: 1020426869}
   m_Layer: 0
-  m_Name: Cylinder (5)
+  m_Name: hill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -804,7 +804,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c1f288c794b68d24ba4d7ce5eb603f8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -859,7 +859,7 @@ GameObject:
   - component: {fileID: 1066344240}
   - component: {fileID: 1066344239}
   m_Layer: 0
-  m_Name: Cylinder (7)
+  m_Name: hill with waterfall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -896,7 +896,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0b91b4eb848604845906fc670b8db88f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 1160612967}
   - component: {fileID: 1160612966}
   m_Layer: 0
-  m_Name: Cylinder (4)
+  m_Name: Flat building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,7 +988,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 68729e0cb215f2245a1ff07811b2fe9e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1043,7 +1043,7 @@ GameObject:
   - component: {fileID: 1170568181}
   - component: {fileID: 1170568180}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: globe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1079,7 +1079,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5d8f6d1ee290b8b448614528f2f41638, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1134,7 +1134,7 @@ GameObject:
   - component: {fileID: 1356864307}
   - component: {fileID: 1356864306}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: bridgebase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1171,7 +1171,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 24194e372c84ea940aad00532fc36519, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1226,7 +1226,7 @@ GameObject:
   - component: {fileID: 1537015543}
   - component: {fileID: 1537015542}
   m_Layer: 0
-  m_Name: Cylinder (8)
+  m_Name: mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1263,7 +1263,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 68729e0cb215f2245a1ff07811b2fe9e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1318,7 +1318,7 @@ GameObject:
   - component: {fileID: 1847541691}
   - component: {fileID: 1847541690}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: globe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1354,7 +1354,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5d8f6d1ee290b8b448614528f2f41638, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1409,7 +1409,7 @@ GameObject:
   - component: {fileID: 1942209855}
   - component: {fileID: 1942209854}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1445,7 +1445,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 24194e372c84ea940aad00532fc36519, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 2116658745}
   - component: {fileID: 2116658744}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: statue base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1536,7 +1536,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 24194e372c84ea940aad00532fc36519, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1572,7 +1572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116658743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.8, y: 2.91, z: -4.05}
+  m_LocalPosition: {x: 4.8, y: 2.843, z: -4.05}
   m_LocalScale: {x: 0.53703, y: 1, z: 0.40716}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1588,7 +1588,7 @@ PrefabInstance:
     - target: {fileID: 1527890788203791435, guid: 8027defecd7adb0419ce38dcd7171207,
         type: 3}
       propertyPath: m_Name
-      value: OptimizedTree
+      value: statue
       objectReference: {fileID: 0}
     - target: {fileID: 7621523098576373762, guid: 8027defecd7adb0419ce38dcd7171207,
         type: 3}
@@ -1598,7 +1598,7 @@ PrefabInstance:
     - target: {fileID: 7621523098576373762, guid: 8027defecd7adb0419ce38dcd7171207,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.1185
+      value: 3.0514998
       objectReference: {fileID: 0}
     - target: {fileID: 7621523098576373762, guid: 8027defecd7adb0419ce38dcd7171207,
         type: 3}
@@ -1644,21 +1644,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7621523098576373762, guid: 8027defecd7adb0419ce38dcd7171207,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.07501612
-      objectReference: {fileID: 0}
-    - target: {fileID: 7621523098576373762, guid: 8027defecd7adb0419ce38dcd7171207,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.07501612
-      objectReference: {fileID: 0}
-    - target: {fileID: 7621523098576373762, guid: 8027defecd7adb0419ce38dcd7171207,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.07501612
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8027defecd7adb0419ce38dcd7171207, type: 3}
