@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 9387957}
   - component: {fileID: 9387956}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: statue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 10954681}
   - component: {fileID: 10954680}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: globe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,8 +315,9 @@ GameObject:
   - component: {fileID: 23660765}
   - component: {fileID: 23660764}
   - component: {fileID: 23660763}
+  - component: {fileID: 23660767}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: rope2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -393,8 +394,27 @@ Transform:
   m_LocalScale: {x: 1, y: 59.24096, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: -11.747001, y: -39.419003, z: 69.263}
+--- !u!95 &23660767
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23660762}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 864f9a428097df14fb61fd6a230e5551, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &77043667
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +428,7 @@ GameObject:
   - component: {fileID: 77043669}
   - component: {fileID: 77043668}
   m_Layer: 0
-  m_Name: Capsule (16)
+  m_Name: oval building pillar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -500,7 +520,7 @@ GameObject:
   - component: {fileID: 100375210}
   - component: {fileID: 100375209}
   m_Layer: 0
-  m_Name: Capsule (14)
+  m_Name: city pointy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -592,7 +612,7 @@ GameObject:
   - component: {fileID: 109045164}
   - component: {fileID: 109045163}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: river
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -668,7 +688,7 @@ Transform:
   m_LocalScale: {x: 312.84885, y: -0.08606878, z: 7.1014175}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -62.297005, z: 0}
 --- !u!1 &165651677
 GameObject:
@@ -683,7 +703,7 @@ GameObject:
   - component: {fileID: 165651679}
   - component: {fileID: 165651678}
   m_Layer: 0
-  m_Name: Capsule (15)
+  m_Name: small glow building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -866,7 +886,7 @@ GameObject:
   - component: {fileID: 196231059}
   - component: {fileID: 196231058}
   m_Layer: 0
-  m_Name: Cylinder (19)
+  m_Name: globe castle ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -959,7 +979,7 @@ GameObject:
   - component: {fileID: 199422218}
   - component: {fileID: 199422222}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: vine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1069,7 +1089,7 @@ GameObject:
   - component: {fileID: 199432379}
   - component: {fileID: 199432378}
   m_Layer: 0
-  m_Name: Cylinder (9)
+  m_Name: statue ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1161,7 +1181,7 @@ GameObject:
   - component: {fileID: 235475825}
   - component: {fileID: 235475824}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: far left mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1252,7 +1272,7 @@ GameObject:
   - component: {fileID: 282334384}
   - component: {fileID: 282334383}
   m_Layer: 0
-  m_Name: Capsule (10)
+  m_Name: oval building pillar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1344,7 +1364,7 @@ GameObject:
   - component: {fileID: 294056150}
   - component: {fileID: 294056149}
   m_Layer: 0
-  m_Name: Capsule (4)
+  m_Name: tree trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1436,7 +1456,7 @@ GameObject:
   - component: {fileID: 299163530}
   - component: {fileID: 299163529}
   m_Layer: 0
-  m_Name: Cylinder (7)
+  m_Name: waterfall ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1528,7 +1548,7 @@ GameObject:
   - component: {fileID: 378943703}
   - component: {fileID: 378943702}
   m_Layer: 0
-  m_Name: Cylinder (4)
+  m_Name: look out stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1620,7 +1640,7 @@ GameObject:
   - component: {fileID: 387398293}
   - component: {fileID: 387398292}
   m_Layer: 0
-  m_Name: Cylinder (18)
+  m_Name: moutain formation ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1713,7 +1733,7 @@ GameObject:
   - component: {fileID: 391630306}
   - component: {fileID: 391630310}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: vine4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1823,7 +1843,7 @@ GameObject:
   - component: {fileID: 419201509}
   - component: {fileID: 419201508}
   m_Layer: 0
-  m_Name: Sphere (7)
+  m_Name: tree leaves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1914,7 +1934,7 @@ GameObject:
   - component: {fileID: 441579758}
   - component: {fileID: 441579757}
   m_Layer: 0
-  m_Name: Cube (13)
+  m_Name: moutain formation top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2005,7 +2025,7 @@ GameObject:
   - component: {fileID: 442860053}
   - component: {fileID: 442860052}
   m_Layer: 0
-  m_Name: Cylinder (16)
+  m_Name: oval building second
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2097,7 +2117,7 @@ GameObject:
   - component: {fileID: 459578616}
   - component: {fileID: 459578615}
   m_Layer: 0
-  m_Name: Cube (18)
+  m_Name: oval building small building base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2188,7 +2208,7 @@ GameObject:
   - component: {fileID: 476583050}
   - component: {fileID: 476583049}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: river3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2264,7 +2284,7 @@ Transform:
   m_LocalScale: {x: 52.728977, y: -0.08606878, z: 7.1014175}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -114.77801, z: 0}
 --- !u!1 &485642650
 GameObject:
@@ -2279,7 +2299,7 @@ GameObject:
   - component: {fileID: 485642652}
   - component: {fileID: 485642651}
   m_Layer: 0
-  m_Name: Capsule (6)
+  m_Name: oval building pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2371,7 +2391,7 @@ GameObject:
   - component: {fileID: 513728917}
   - component: {fileID: 513728916}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: front bush ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2611,7 +2631,7 @@ GameObject:
   - component: {fileID: 527335610}
   - component: {fileID: 527335609}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: bridge stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2786,7 +2806,7 @@ GameObject:
   - component: {fileID: 593639491}
   - component: {fileID: 593639490}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: next to statue bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2877,7 +2897,7 @@ GameObject:
   - component: {fileID: 610336599}
   - component: {fileID: 610336598}
   m_Layer: 0
-  m_Name: Capsule (7)
+  m_Name: oval building pillar small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2969,7 +2989,7 @@ GameObject:
   - component: {fileID: 611519737}
   - component: {fileID: 611519736}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: statue base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3059,8 +3079,9 @@ GameObject:
   - component: {fileID: 619009413}
   - component: {fileID: 619009412}
   - component: {fileID: 619009411}
+  - component: {fileID: 619009415}
   m_Layer: 0
-  m_Name: Capsule (3)
+  m_Name: rope3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3137,8 +3158,27 @@ Transform:
   m_LocalScale: {x: 1, y: 59.24096, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -4.559, y: -49.455, z: -62.881004}
+--- !u!95 &619009415
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619009410}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 55fef6641add5174d9fa563eab7eb71d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &652944809
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,7 +3192,7 @@ GameObject:
   - component: {fileID: 652944811}
   - component: {fileID: 652944810}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: next to statue building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3243,7 +3283,7 @@ GameObject:
   - component: {fileID: 666518859}
   - component: {fileID: 666518858}
   m_Layer: 0
-  m_Name: Cube (14)
+  m_Name: moutain formation low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3334,7 +3374,7 @@ GameObject:
   - component: {fileID: 677800840}
   - component: {fileID: 677800839}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: vine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3426,7 +3466,7 @@ GameObject:
   - component: {fileID: 678603971}
   - component: {fileID: 678603970}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: river4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3502,7 +3542,7 @@ Transform:
   m_LocalScale: {x: 52.728977, y: -0.08606878, z: 7.1014175}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -74.761, z: 0}
 --- !u!1 &692418683
 GameObject:
@@ -3518,7 +3558,7 @@ GameObject:
   - component: {fileID: 692418684}
   - component: {fileID: 692418688}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: vine6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3628,7 +3668,7 @@ GameObject:
   - component: {fileID: 702397722}
   - component: {fileID: 702397721}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3719,7 +3759,7 @@ GameObject:
   - component: {fileID: 724262972}
   - component: {fileID: 724262971}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: next to statue building2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3810,7 +3850,7 @@ GameObject:
   - component: {fileID: 791556748}
   - component: {fileID: 791556747}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: river6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3886,7 +3926,7 @@ Transform:
   m_LocalScale: {x: 90.150734, y: -0.08606878, z: 2.3112755}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -106.60901, z: 0}
 --- !u!1 &801107471
 GameObject:
@@ -3901,7 +3941,7 @@ GameObject:
   - component: {fileID: 801107473}
   - component: {fileID: 801107472}
   m_Layer: 0
-  m_Name: Capsule (9)
+  m_Name: oval building pillar small3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3992,8 +4032,9 @@ GameObject:
   - component: {fileID: 846839529}
   - component: {fileID: 846839528}
   - component: {fileID: 846839527}
+  - component: {fileID: 846839531}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: rope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4070,8 +4111,27 @@ Transform:
   m_LocalScale: {x: 1, y: 59.24096, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -11.747001, y: -39.419003, z: 69.263}
+--- !u!95 &846839531
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846839526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 03c4195a89820734c8ce24950ffa6d22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &914268202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4085,7 +4145,7 @@ GameObject:
   - component: {fileID: 914268204}
   - component: {fileID: 914268203}
   m_Layer: 0
-  m_Name: Capsule (13)
+  m_Name: globe castle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4177,7 +4237,7 @@ GameObject:
   - component: {fileID: 922714319}
   - component: {fileID: 922714318}
   m_Layer: 0
-  m_Name: Sphere (8)
+  m_Name: tree leaves2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4342,7 +4402,7 @@ GameObject:
   - component: {fileID: 988539986}
   - component: {fileID: 988539985}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: globe bridge base2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4434,7 +4494,7 @@ GameObject:
   - component: {fileID: 1031463837}
   - component: {fileID: 1031463836}
   m_Layer: 0
-  m_Name: Cylinder (13)
+  m_Name: church ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4526,7 +4586,7 @@ GameObject:
   - component: {fileID: 1053878896}
   - component: {fileID: 1053878895}
   m_Layer: 0
-  m_Name: Cube (19)
+  m_Name: far right mountain2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4617,7 +4677,7 @@ GameObject:
   - component: {fileID: 1084081046}
   - component: {fileID: 1084081045}
   m_Layer: 0
-  m_Name: Cube (17)
+  m_Name: oval building small building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4708,7 +4768,7 @@ GameObject:
   - component: {fileID: 1095646393}
   - component: {fileID: 1095646392}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: church point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4799,7 +4859,7 @@ GameObject:
   - component: {fileID: 1111149268}
   - component: {fileID: 1111149267}
   m_Layer: 0
-  m_Name: Sphere (5)
+  m_Name: city small tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4890,7 +4950,7 @@ GameObject:
   - component: {fileID: 1115604513}
   - component: {fileID: 1115604512}
   m_Layer: 0
-  m_Name: Cylinder (10)
+  m_Name: tree ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4982,7 +5042,7 @@ GameObject:
   - component: {fileID: 1119619602}
   - component: {fileID: 1119619601}
   m_Layer: 0
-  m_Name: Cube (16)
+  m_Name: city tall building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5073,7 +5133,7 @@ GameObject:
   - component: {fileID: 1134141023}
   - component: {fileID: 1134141022}
   m_Layer: 0
-  m_Name: Cylinder (15)
+  m_Name: oval building thrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5165,7 +5225,7 @@ GameObject:
   - component: {fileID: 1136420359}
   - component: {fileID: 1136420358}
   m_Layer: 0
-  m_Name: Sphere (6)
+  m_Name: city tall tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5255,7 +5315,7 @@ GameObject:
   - component: {fileID: 1145593664}
   - component: {fileID: 1145593663}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: birds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5891,7 +5951,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 25
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -7361,12 +7421,12 @@ ParticleSystem:
         m_RotationOrder: 4
     inWorldSpace: 0
   InheritVelocityModule:
-    enabled: 0
+    enabled: 1
     m_Mode: 0
     m_Curve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -8453,7 +8513,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   SizeBySpeedModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -8613,7 +8673,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    range: {x: 0, y: 1}
+    range: {x: 2, y: 8}
     separateAxes: 0
   RotationBySpeedModule:
     enabled: 0
@@ -10008,7 +10068,7 @@ GameObject:
   - component: {fileID: 1145769195}
   - component: {fileID: 1145769194}
   m_Layer: 0
-  m_Name: Capsule (17)
+  m_Name: oval building pillar4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10173,8 +10233,9 @@ GameObject:
   - component: {fileID: 1166205654}
   - component: {fileID: 1166205653}
   - component: {fileID: 1166205652}
+  - component: {fileID: 1166205656}
   m_Layer: 0
-  m_Name: Capsule (4)
+  m_Name: rope4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10251,8 +10312,27 @@ Transform:
   m_LocalScale: {x: 1, y: 59.24096, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -4.559, y: -49.455, z: -62.881004}
+--- !u!95 &1166205656
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166205651}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c14446d42067deb49b1cedba062b3485, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1172222010
 GameObject:
   m_ObjectHideFlags: 0
@@ -10266,7 +10346,7 @@ GameObject:
   - component: {fileID: 1172222012}
   - component: {fileID: 1172222011}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: bush 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10357,7 +10437,7 @@ GameObject:
   - component: {fileID: 1175403513}
   - component: {fileID: 1175403512}
   m_Layer: 0
-  m_Name: Cylinder (20)
+  m_Name: bridge ground2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10375,7 +10455,7 @@ Transform:
   m_LocalScale: {x: 45.059673, y: 134.2229, z: 150.20851}
   m_Children: []
   m_Father: {fileID: 1416795451}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 1.24, y: -257.701, z: -0.158}
 --- !u!136 &1175403512
 CapsuleCollider:
@@ -10449,7 +10529,7 @@ GameObject:
   - component: {fileID: 1215335927}
   - component: {fileID: 1215335926}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: bridge stand2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10541,7 +10621,7 @@ GameObject:
   - component: {fileID: 1246235512}
   - component: {fileID: 1246235511}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: next to statue building angle bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10633,7 +10713,7 @@ GameObject:
   - component: {fileID: 1281634278}
   - component: {fileID: 1281634277}
   m_Layer: 0
-  m_Name: Sphere (9)
+  m_Name: vine7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10728,7 +10808,7 @@ Transform:
   m_LocalScale: {x: 3.8657372, y: 16.717018, z: 5.952166}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.753}
 --- !u!1 &1324067196
 GameObject:
@@ -10743,7 +10823,7 @@ GameObject:
   - component: {fileID: 1324067198}
   - component: {fileID: 1324067197}
   m_Layer: 0
-  m_Name: Cylinder (14)
+  m_Name: oval building bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10835,7 +10915,7 @@ GameObject:
   - component: {fileID: 1334408354}
   - component: {fileID: 1334408353}
   m_Layer: 0
-  m_Name: Cylinder (6)
+  m_Name: behind city ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10927,7 +11007,7 @@ GameObject:
   - component: {fileID: 1359741662}
   - component: {fileID: 1359741661}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: bush 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11018,7 +11098,7 @@ GameObject:
   - component: {fileID: 1366165625}
   - component: {fileID: 1366165624}
   m_Layer: 0
-  m_Name: Cube (15)
+  m_Name: moutain formation mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11109,7 +11189,7 @@ GameObject:
   - component: {fileID: 1369819169}
   - component: {fileID: 1369819168}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: globe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11201,7 +11281,7 @@ GameObject:
   - component: {fileID: 1385273763}
   - component: {fileID: 1385273767}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: vine5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11393,7 +11473,6 @@ Transform:
   - {fileID: 1145769197}
   - {fileID: 1053878898}
   - {fileID: 1919164015}
-  - {fileID: 1881710324}
   - {fileID: 1175403511}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -11411,7 +11490,7 @@ GameObject:
   - component: {fileID: 1427274690}
   - component: {fileID: 1427274689}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11503,7 +11582,7 @@ GameObject:
   - component: {fileID: 1431497599}
   - component: {fileID: 1431497598}
   m_Layer: 0
-  m_Name: Cube (12)
+  m_Name: stair bulding bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11594,7 +11673,7 @@ GameObject:
   - component: {fileID: 1472502673}
   - component: {fileID: 1472502672}
   m_Layer: 0
-  m_Name: Cube (10)
+  m_Name: stair bulding top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11684,8 +11763,9 @@ GameObject:
   - component: {fileID: 1476157221}
   - component: {fileID: 1476157220}
   - component: {fileID: 1476157219}
+  - component: {fileID: 1476157223}
   m_Layer: 0
-  m_Name: Sphere (6)
+  m_Name: rope holder2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11761,8 +11841,27 @@ Transform:
   m_LocalScale: {x: 9.952551, y: 9.952551, z: -0.5317847}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -6.032, y: -39.262, z: 2.1160002}
+--- !u!95 &1476157223
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476157218}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a90f5ec46670414d94f23e4cc68a848, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1478771579
 GameObject:
   m_ObjectHideFlags: 0
@@ -11776,7 +11875,7 @@ GameObject:
   - component: {fileID: 1478771581}
   - component: {fileID: 1478771580}
   m_Layer: 0
-  m_Name: Cylinder (3)
+  m_Name: look out base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11868,7 +11967,7 @@ GameObject:
   - component: {fileID: 1523294346}
   - component: {fileID: 1523294345}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: globe castle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11942,7 +12041,7 @@ Transform:
   m_GameObject: {fileID: 1523294344}
   m_LocalRotation: {x: -0, y: 0.030382859, z: -0, w: 0.99953836}
   m_LocalPosition: {x: -686.33496, y: 487.63, z: 1527.3218}
-  m_LocalScale: {x: 36.754032, y: 33.41112, z: 48.80623}
+  m_LocalScale: {x: 36.754032, y: 33.41112, z: 48.22446}
   m_Children: []
   m_Father: {fileID: 1416795451}
   m_RootOrder: 40
@@ -11960,7 +12059,7 @@ GameObject:
   - component: {fileID: 1524731491}
   - component: {fileID: 1524731490}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: pale building city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12052,7 +12151,7 @@ GameObject:
   - component: {fileID: 1533781271}
   - component: {fileID: 1533781270}
   m_Layer: 0
-  m_Name: Capsule (11)
+  m_Name: below small rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12144,7 +12243,7 @@ GameObject:
   - component: {fileID: 1538064582}
   - component: {fileID: 1538064581}
   m_Layer: 0
-  m_Name: Capsule (12)
+  m_Name: below tall rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12236,7 +12335,7 @@ GameObject:
   - component: {fileID: 1541000377}
   - component: {fileID: 1541000376}
   m_Layer: 0
-  m_Name: Cube (9)
+  m_Name: church building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12327,7 +12426,7 @@ GameObject:
   - component: {fileID: 1591444895}
   - component: {fileID: 1591444894}
   m_Layer: 0
-  m_Name: Sphere (7)
+  m_Name: ground water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12403,7 +12502,7 @@ Transform:
   m_LocalScale: {x: 178.1705, y: 7.812462, z: 256.11432}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1610201942
 GameObject:
@@ -12418,7 +12517,7 @@ GameObject:
   - component: {fileID: 1610201944}
   - component: {fileID: 1610201943}
   m_Layer: 0
-  m_Name: Cylinder (17)
+  m_Name: oval building top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12511,7 +12610,7 @@ GameObject:
   - component: {fileID: 1615886591}
   - component: {fileID: 1615886595}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: vine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12621,7 +12720,7 @@ GameObject:
   - component: {fileID: 1632811340}
   - component: {fileID: 1632811339}
   m_Layer: 0
-  m_Name: Cylinder (12)
+  m_Name: next to statue building ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12713,7 +12812,7 @@ GameObject:
   - component: {fileID: 1635622698}
   - component: {fileID: 1635622697}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: river8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12789,99 +12888,8 @@ Transform:
   m_LocalScale: {x: 175.40945, y: -0.28631842, z: 15.527177}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -61.098003, z: 0}
---- !u!1 &1641500866
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1641500870}
-  - component: {fileID: 1641500869}
-  - component: {fileID: 1641500868}
-  - component: {fileID: 1641500867}
-  m_Layer: 0
-  m_Name: Sphere (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!135 &1641500867
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641500866}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1641500868
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641500866}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 073dc61e6b8726e40ae0207818401ea5, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1641500869
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641500866}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1641500870
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641500866}
-  m_LocalRotation: {x: -0.05574496, y: -0.3345276, z: -0.00031066916, w: 0.94073576}
-  m_LocalPosition: {x: -744.7, y: 52, z: -1427.1}
-  m_LocalScale: {x: 9.952551, y: 9.952551, z: -0.5317847}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: -6.032, y: -39.262, z: 2.1160002}
 --- !u!1 &1643523537
 GameObject:
   m_ObjectHideFlags: 0
@@ -12895,7 +12903,7 @@ GameObject:
   - component: {fileID: 1643523539}
   - component: {fileID: 1643523538}
   m_Layer: 0
-  m_Name: Cylinder (11)
+  m_Name: bridge ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13061,7 +13069,7 @@ GameObject:
   - component: {fileID: 1686152580}
   - component: {fileID: 1686152579}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: far right mountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13152,7 +13160,7 @@ GameObject:
   - component: {fileID: 1690689302}
   - component: {fileID: 1690689301}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: river2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13228,7 +13236,7 @@ Transform:
   m_LocalScale: {x: 81.019295, y: -0.08606878, z: 7.1014175}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -62.297005, z: 0}
 --- !u!1 &1752743974
 GameObject:
@@ -13243,7 +13251,7 @@ GameObject:
   - component: {fileID: 1752743976}
   - component: {fileID: 1752743975}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: river5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13319,7 +13327,7 @@ Transform:
   m_LocalScale: {x: 90.150734, y: -0.08606878, z: 7.1014175}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -136.71901, z: 0}
 --- !u!1 &1780380428
 GameObject:
@@ -13334,7 +13342,7 @@ GameObject:
   - component: {fileID: 1780380430}
   - component: {fileID: 1780380429}
   m_Layer: 0
-  m_Name: Cube (9)
+  m_Name: river9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13410,7 +13418,7 @@ Transform:
   m_LocalScale: {x: 299.89752, y: -0.28631842, z: 15.527177}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: -123.05601, z: 0}
 --- !u!1 &1848540755
 GameObject:
@@ -13517,7 +13525,7 @@ GameObject:
   - component: {fileID: 1863786351}
   - component: {fileID: 1863786350}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: globe bridge base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13596,7 +13604,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1881710321
+--- !u!1 &1871132055
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13604,64 +13612,109 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1881710324}
-  - component: {fileID: 1881710323}
-  - component: {fileID: 1881710322}
+  - component: {fileID: 1871132060}
+  - component: {fileID: 1871132059}
+  - component: {fileID: 1871132058}
+  - component: {fileID: 1871132057}
+  - component: {fileID: 1871132056}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1881710322
-MonoBehaviour:
+--- !u!95 &1871132056
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881710321}
+  m_GameObject: {fileID: 1871132055}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &1881710323
-MonoBehaviour:
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c07db87aed0b4df42b08dd51ab5bce9b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!135 &1871132057
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881710321}
+  m_GameObject: {fileID: 1871132055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1881710324
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1871132058
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871132055}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 073dc61e6b8726e40ae0207818401ea5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1871132059
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871132055}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1871132060
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881710321}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1182.735, y: 87.00391, z: 120.67822}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 1871132055}
+  m_LocalRotation: {x: -0.05944709, y: -0.35640535, z: -0.029237144, w: 0.9319799}
+  m_LocalPosition: {x: -744.21, y: 50.37, z: -1428.1}
+  m_LocalScale: {x: 10.080827, y: 10.080827, z: 1.2944361}
   m_Children: []
-  m_Father: {fileID: 1416795451}
-  m_RootOrder: 68
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: -7.5650005, y: -41.809002, z: -0.70100003}
 --- !u!1 &1907298432
 GameObject:
   m_ObjectHideFlags: 0
@@ -13854,7 +13907,7 @@ GameObject:
   - component: {fileID: 1938297493}
   - component: {fileID: 1938297492}
   m_Layer: 0
-  m_Name: Cylinder (5)
+  m_Name: city ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14020,7 +14073,7 @@ GameObject:
   - component: {fileID: 1963498726}
   - component: {fileID: 1963498725}
   m_Layer: 0
-  m_Name: Capsule (8)
+  m_Name: oval building pillar small2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14112,7 +14165,7 @@ GameObject:
   - component: {fileID: 1976950455}
   - component: {fileID: 1976950454}
   m_Layer: 0
-  m_Name: Capsule (5)
+  m_Name: tree trunk 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14204,7 +14257,7 @@ GameObject:
   - component: {fileID: 1996253913}
   - component: {fileID: 1996253912}
   m_Layer: 0
-  m_Name: Sphere (8)
+  m_Name: ground island
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14280,7 +14333,7 @@ Transform:
   m_LocalScale: {x: 145.36307, y: 19.692966, z: 211.9532}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2017210170
 GameObject:
@@ -14295,7 +14348,7 @@ GameObject:
   - component: {fileID: 2017210172}
   - component: {fileID: 2017210171}
   m_Layer: 0
-  m_Name: Cube (11)
+  m_Name: stair bulding middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14386,7 +14439,7 @@ GameObject:
   - component: {fileID: 2068746857}
   - component: {fileID: 2068746856}
   m_Layer: 0
-  m_Name: Capsule (3)
+  m_Name: tall glow building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14478,7 +14531,7 @@ GameObject:
   - component: {fileID: 2086749754}
   - component: {fileID: 2086749753}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: river7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14554,5 +14607,5 @@ Transform:
   m_LocalScale: {x: 368.39493, y: -0.28631842, z: 15.527177}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -101.114006, z: 0}
